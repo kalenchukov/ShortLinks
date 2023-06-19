@@ -1,0 +1,7 @@
+-- Создаёт таблицу для ссылок
+CREATE TABLE IF NOT EXISTS links
+(
+	link_id BIGSERIAL PRIMARY KEY,
+	url VARCHAR(255) NOT NULL,
+	date_create TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
