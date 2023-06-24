@@ -65,7 +65,7 @@ public interface LinkRepositories {
      * Удаляет ссылку по идентификатору.
      *
      * @param linkId идентификатор ссылки.
-     * @return {@code true} если ссылка удалена, иначе {@code false}.
+     * @return {@code true} если ссылка с {@code linkId} удалена, иначе {@code false}.
      * @throws SQLException при возникновении проблем с базой данных.
      */
     boolean deleteById(long linkId) throws SQLException;

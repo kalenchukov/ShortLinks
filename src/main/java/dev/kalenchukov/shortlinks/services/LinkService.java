@@ -68,7 +68,7 @@ public class LinkService implements LinkServices {
      *
      * @param linkId {@inheritDoc}
      * @return {@inheritDoc}
-     * @throws LinkNotFoundException если ссылка с таким идентификатором не найдена.
+     * @throws LinkNotFoundException если ссылка с {@code linkId} не найдена.
      * @throws ServerErrorException  если произошла ошибка при работе с базой данных.
      */
     @Override
@@ -90,7 +90,7 @@ public class LinkService implements LinkServices {
      *
      * @param linkId {@inheritDoc}
      * @return {@inheritDoc}
-     * @throws LinkNotFoundException если ссылка с таким идентификатором не найдена.
+     * @throws LinkNotFoundException если ссылка с {@code linkId} не найдена.
      * @throws ServerErrorException  если произошла ошибка при работе с базой данных.
      */
     @Override
@@ -141,7 +141,7 @@ public class LinkService implements LinkServices {
      * {@inheritDoc}
      *
      * @param linkId {@inheritDoc}
-     * @throws LinkNotFoundException если ссылка с таким идентификатором не найдена.
+     * @throws LinkNotFoundException если ссылка с {@code linkId} не найдена.
      * @throws ServerErrorException  если произошла ошибка при работе с базой данных.
      */
     @Override
